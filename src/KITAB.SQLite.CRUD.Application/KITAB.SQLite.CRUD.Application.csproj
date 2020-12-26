@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KITAB.SQLite.CRUD.Domain\KITAB.SQLite.CRUD.Domain.csproj" />
+    <ProjectReference Include="..\KITAB.SQLite.CRUD.Infra\KITAB.SQLite.CRUD.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
