@@ -1,4 +1,4 @@
-# DotNet Core - v3.1 - Projeto - 001
+# DotNet Core - v3.1 - SQLite - Projeto 001
 
 * Linguagem principal: C# (CSharp)
 * Frameworks utilizadas: DotNet Core versão 3.1
