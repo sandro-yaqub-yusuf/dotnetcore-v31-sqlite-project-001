@@ -137,11 +137,9 @@ namespace KITAB.SQLite.CRUD.Infra.Produtos
                 {
                     throw new Exception(ex.Message);
                 }
-                finally
-                {
-                    cnn?.Close();
-                    cnn?.Dispose();
-                }
+
+                cnn?.Close();
+                cnn?.Dispose();
             }
 
             return _produto;
@@ -167,11 +165,9 @@ namespace KITAB.SQLite.CRUD.Infra.Produtos
                 {
                     throw new Exception(ex.Message);
                 }
-                finally
-                {
-                    cnn?.Close();
-                    cnn?.Dispose();
-                }
+
+                cnn?.Close();
+                cnn?.Dispose();
             }
 
             return _produto;

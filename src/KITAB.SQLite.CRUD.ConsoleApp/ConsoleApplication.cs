@@ -67,7 +67,7 @@ namespace KITAB.SQLite.CRUD.ConsoleApp
             {
                 Nome = "Produto 1",
                 Descricao = "Descrição do Produto 1",
-                Imagem = "9d11cb8a-f0dd-4aef-a803-bc257959bbc0_produto-400x400.jpg",
+                Imagem = "9d11cb8a-f0dd-4aef-a803-bc257959bbc0_produto-256x256.jpg",
                 Qtde = 1,
                 PrecoCusto = 10,
                 PrecoVenda = 20,
@@ -99,10 +99,10 @@ namespace KITAB.SQLite.CRUD.ConsoleApp
                              "(Nome, Descricao, Imagem, Qtde, PrecoCusto, PrecoVenda, DataCadastro, Situacao) VALUES (" +
                              "'Produto " + i.ToString() + "', " +
                              "'Descrição do Produto " + i.ToString() + "', " +
-                             "'9d11cb8a-f0dd-4aef-a803-bc257959bbc0_produto-400x400.jpg', " +
-                             (i * 10).ToString() + ", " +
-                             (i * 10).ToString() + ", " +
+                             "'9d11cb8a-f0dd-4aef-a803-bc257959bbc0_produto-256x256.jpg', " +
                              (i * 2).ToString() + ", " +
+                             (i * 10).ToString() + ", " +
+                             (i * 15).ToString() + ", " +
                              "'" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.0000000") + "', " +
                              "'A');";
 
@@ -134,7 +134,7 @@ namespace KITAB.SQLite.CRUD.ConsoleApp
                 Id = 10,
                 Nome = "Produto 10 - Alterado",
                 Descricao = "Descrição do Produto 10 - Alterado",
-                Imagem = "9d11cb8a-f0dd-4aef-a803-bc257959bbc0_produto-400x400.jpg",
+                Imagem = "9d11cb8a-f0dd-4aef-a803-bc257959bbc0_produto-256x256.jpg",
                 Qtde = 0,
                 PrecoCusto = 0,
                 PrecoVenda = 0,
